@@ -1,0 +1,109 @@
+label: pp1
+punctuation: :
+datatype: integer_2
+ID: findf12act
+special symbol: (
+datatype: integer_2
+ID: \ni2
+special symbol: )
+special symbol: [
+
+label: pp2
+punctuation: :
+datatype: integer_2
+ID: #ret
+punctuation: ;
+
+label: pp3
+punctuation: :
+ID: #ret
+operator: =
+constant: 1
+punctuation: ;
+
+label: pp4
+punctuation: :
+
+label: pp5
+punctuation: :
+reserved keyword: in case that
+special symbol: [
+ID: \ni2
+reserved keyword: lt
+constant: 0
+special symbol: ]
+
+label: pp6
+punctuation: :
+reserved keyword: do
+special symbol: [
+
+label: pp7
+punctuation: :
+
+label: pp8
+punctuation: :
+reserved keyword: jump to
+label: pp18
+punctuation: ;
+
+label: pp9
+punctuation: :
+special symbol: ]
+
+label: pp10
+punctuation: :
+
+label: pp11
+punctuation: :
+datatype: integer_2
+ID: /counter2
+operator: =
+constant: 1
+punctuation: ;
+
+label: pp12
+punctuation: :
+
+label: pp13
+punctuation: :
+ID: #ret
+operator: =
+ID: #ret
+Operator: *
+ID: /counter2
+punctaution: ;
+
+label: pp14
+punctuation: :
+reserved keyword: in case that
+special symbol: [
+ID: /counter2
+reserved keyword: lte
+ID: \ni2
+special symbol: ]
+
+label: pp15
+punctuation: :
+reserved keyword: do
+special symbol: [
+
+label: pp16
+punctuation: :
+reserved keyword: jump to
+label: pp13
+punctuation: ;
+
+label: pp17
+punctuation: :
+special symbol: ]
+
+label: pp18
+punctuation: :
+reserved keyword: return
+ID: #ret
+punctuation: ;
+
+label: pp19
+punctuation: :
+special symbol: ]

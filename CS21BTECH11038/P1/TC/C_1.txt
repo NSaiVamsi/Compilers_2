@@ -1,0 +1,16 @@
+int findf12act(int \ni2){
+	int #ret ;
+	#ret = 1;
+
+	if(\ni2 < 0){
+		goto pp18; 
+	}
+
+	int /counter2 = 1;
+	#ret = #ret * /counter2 ;
+	if(/counter2 <= \ni2){
+	goto pp13;
+	}
+
+	return #ret ;
+}

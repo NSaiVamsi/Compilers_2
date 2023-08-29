@@ -1,0 +1,18 @@
+pp1: character_1 something(integer_2 _a, string -str)[
+pp2:	-str = "new program" ;
+pp3:	integer_2 @a22 = 9;
+pp4:	integer_2 /d0 = 12 ;
+pp5:	character_1 #a = 'y';
+pp6:
+pp7:	in case that [@a22 * 8 gt 100]
+pp8:	 do [
+pp9:	 	#a = 'z';
+pp10:	 ]
+pp11:	 otherwise [
+pp12:	 	_a = 1000;
+pp13:	 ]
+pp14:	 @a22 = @a22 - _a ;
+pp15:	 /d0 = /d0 / 5 ;
+pp16:	 return #a ;
+pp17: ]
+

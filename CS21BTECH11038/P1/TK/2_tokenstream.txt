@@ -1,0 +1,92 @@
+label: pp1
+punctuation: :
+datatype: integer_2
+ID: sum
+special symbol: (
+datatype: integer_2
+ID: @a
+special symbol: )
+special symbol: [
+
+label: pp2
+punctuation: :
+
+label: pp3
+punctuation: :
+datatype: integer_2
+ID: \ret23
+punctuation: ;
+
+label: pp4
+punctuation: :
+ID: \ret23;
+operator: =
+constant 0
+punctuation: ;
+
+label: pp5
+punctuation: :
+
+label: pp6
+punctuation: :
+datatype: integer_2
+ID: count45
+operator: =
+constant: 1
+punctuation: ;
+
+label: pp7
+punctuation: :
+
+label: pp8
+punctuation: :
+ID: \ret23;
+operator: =
+ID: \ret23;
+Operator: +
+ID: count45
+punctuation: ;
+
+label: pp9
+punctuation: :
+ID: count45;
+operator: =
+ID: count45
+Operator: +
+constant: 1
+punctuation: ;
+
+label: pp10
+punctuation: :
+reserved keyword: in case that
+special symbol: [
+ID: count45
+reserved keyword: lte
+ID: @a
+special symbol: ]
+
+label: pp11
+punctuation: :
+reserved keyword: do
+special symbol: [
+
+label: pp12
+punctuation: :
+reserved keyword: jump to
+label: pp8
+punctuation: ;
+
+label: pp13
+punctuation: :
+special symbol: ]
+
+label: pp14
+punctuation: :
+reserved keyword: return
+ID: \ret23
+punctuation: ;
+
+label: pp15
+punctuation: :
+special symbol: ]
+

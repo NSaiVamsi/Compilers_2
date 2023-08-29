@@ -1,0 +1,21 @@
+pp1: integer_2 findf12act(integer_2 \ni2)[
+pp2:	integer_2 #ret;
+pp3:	#ret = 1;
+pp4:
+pp5:	in case that [\ni2 lt 0]
+pp6:		do [
+pp7:
+pp8:			jump to pp18 ;
+pp9:		] 
+pp10:
+pp11:	integer_2 /counter2 = 1;
+pp12:
+pp13:	#ret = #ret * /counter2;
+pp14:	in case that [/counter2 lte \ni2] 
+pp15:	do [
+pp16:		jump to pp13;
+pp17:	]
+pp18:	return #ret ;
+pp19: ]
+
+

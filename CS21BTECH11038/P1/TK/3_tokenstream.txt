@@ -1,0 +1,122 @@
+label: pp1
+punctuation: :
+datatype: character_1
+ID: something
+special symbol: (
+datatype: integer_2
+ID: _a
+punctuation: ,
+datatype: string
+ID: -str
+special symbol: )
+special symbol: [
+
+label: pp2
+punctuation: :
+ID: -str
+operator: =
+punctuation: "
+constant: new program
+punctuation: "
+punctuation: ;
+
+label: pp3
+punctuation: :
+datatype: integer_2
+ID: @a22
+operator: =
+constant: 9
+punctuation: ;
+
+label: pp4
+punctuation: :
+datatype: integer_2
+ID: /d0
+operator: =
+constant: 12
+punctuation: ;
+
+label: pp5
+punctuation: :
+datatype: character_1
+ID: #a
+operator: =
+punctuation: '
+constant: y
+punctuation: '
+punctuation: ;
+
+label: pp6
+punctuation: :
+
+label: pp7
+punctuation: :
+reserved keyword: in case that
+special symbol: [
+ID: @22
+operator: *
+constant: 8
+reserved keyword: gt
+constant: 100
+special symbol: ]
+
+label: pp8
+punctuation: :
+reserved keyword: do
+special symbol: [
+
+label: pp9
+punctuation: :
+ID: #a
+operator: =
+punctuation: '
+constant: z
+punctuation: '
+
+label: pp10
+punctuation: :
+special symbol: ]
+
+label: pp11
+punctuation: :
+reserved keyword: otherwise
+special symbol: [
+
+label: pp12
+punctuation: :
+ID: _a
+operator: =
+constant: 1000
+punctuation: ;
+
+label: pp13
+punctuation: :
+special symbol: ]
+
+label: pp14
+punctuation: :
+ID: @a22
+operator: =
+ID: @a22
+operator: -
+ID: _a
+punctuation: ;
+
+label: pp15
+punctuation: :
+ID: /d0
+operator: =
+ID: /d0
+operator: /
+constant: 5
+punctuation: ;
+
+label: pp16
+punctuation: :
+reserved keyword: return
+ID: #a
+punctuation: ;
+
+label: pp17
+punctuation: :
+special symbol: ]

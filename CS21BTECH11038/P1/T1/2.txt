@@ -1,0 +1,15 @@
+pp1: integer_2 sum(integer_2 @a)[
+pp2:
+pp3:	integer_2 \ret23 ;
+pp4:	\ret23 = 0;
+pp5:
+pp6:	integer_2 count45 = 1;
+pp7:
+pp8:	\ret23 = \ret23 + count45 ;
+pp9:	count45 = count45 + 1 ;
+pp10:	in case that [count45 lte @a]
+pp11:		do[
+pp12:			jump to pp8 ;
+pp13:		]
+pp14:	return \ret23 ;
+pp15: ]

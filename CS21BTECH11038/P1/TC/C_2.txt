@@ -1,0 +1,15 @@
+int sum(int @a){
+	
+	int \ret23 ;
+	\ret23 = 0;
+	
+	int count45 = 1;
+
+	\ret23 = \ret23 + count45;
+	count45 = count45 + 1;
+	if(count45 <= @a){
+		goto pp8;
+	}
+	return \ret23 ;
+}
+

@@ -1,0 +1,17 @@
+char something(int _a, string -str){
+	
+	-str = "new program";
+	int @a22 = 9;
+	int /d0 = 12;
+	character_1 #a = 'y';
+
+	if(@a22 * 8 > 100){
+		#a = 'z';
+	}else{
+		_a = 1000;
+	}
+
+	@a22 = @a22 - _a ;
+	/d0 = (/d0)/5;
+	return #a ;
+}
